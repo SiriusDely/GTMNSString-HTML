@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   }
   s.platform = :ios
   s.source_files = '*.{h,m}'
-  s.requires_arc = true
   s.compiler_flags = '-w' # Disable all warnings
 end
 
