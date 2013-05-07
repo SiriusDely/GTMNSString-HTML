@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   }
   s.source   = {  
     :git => 'https://github.com/siriusdely/GTMNSString-HTML.git', 
-    :commit => '72ea68bcbcdc3b1e6a9417d7089cd5105af2cabe' 
+    :commit => '57cc38f106911d9d4ee73db67fcaa6df681b51bc' 
   }
   s.platform = :ios
   s.source_files = '*.{h,m}'
