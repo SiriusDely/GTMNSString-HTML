@@ -362,8 +362,10 @@ static NSDictionary *htmlUnescapes = nil;
                      @"", @"</p>",
                      @"", @"<ol>",
                      @"", @"</ol>",
-                     @"", @"<li>",
-                     @"\n", @"</li>",
+                     @"", @"<ul>",
+                     @"", @"</ul>",
+                     @"\t\u2022\t", @"<li>",
+                     @"", @"</li>",
                      @"", @"<em>",
                      @"", @"</em>",
                      @"", @"<div>",
@@ -380,6 +382,8 @@ static NSDictionary *htmlUnescapes = nil;
                      @"<", @"&lt;",
                      @">", @"&gt;",
                      //@"\n", @"&nbsp;",
+                     @"", @"<pre>",
+                     @"", @"</pre>",
                      nil
                      ];
   }
